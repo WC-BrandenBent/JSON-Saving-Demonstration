@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Store Text in localStorage</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js" integrity="sha512-csNcFYJniKjJxRWRV1R7fvnXrycHP6qDR21mgz1ZP55xY5d+aHLfo9/FcGDQLfn2IfngbAHd8LdfsagcCqgTcQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+	<h1>Store Text in localStorage</h1>
+
+	<button id="saveJSON">Save JSON</button>
+	
+	<form id="myForm">
+		<label for="textInput">Enter Text:</label>
+		<input type="text" id="textInput" name="textInput" required>
+		<button type="submit">Submit</button>
+	</form>
+
+
+
+	<div id="display"></div>
+	<div id="textList"></div>
+	
+	<script src="jsonFun.js"></script>
+</body>
+</html>
